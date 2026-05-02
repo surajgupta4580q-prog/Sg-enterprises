@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SG Enterprises | Cycle Spare Parts Wholesale</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f8;
+}
+
+/* HEADER */
+header {
+    background: #0d1b2a;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    color: #00d084;
+    margin: 0;
+}
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #00d084;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1485965120184-e220f721d03e');
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 45px;
+}
+.hero p {
+    font-size: 18px;
+}
+.btn {
+    background: #00d084;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #009e63;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 30px;
+    text-align: center;
+}
+.section h2 {
+    margin-bottom: 20px;
+}
+
+/* PRODUCTS */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.card {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+.contact {
+    background: #0d1b2a;
+    color: white;
+    padding: 40px;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .hero h2 { font-size: 30px; }
+    .products { flex-direction: column; align-items: center; }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>SG Enterprises</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div>
+        <h2>Wholesale Cycle Spare Parts Supplier</h2>
+        <p>Best Quality | Best Prices | Trusted by Dealers</p>
+
+        <!-- WhatsApp button -->
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank">
+            <button class="btn">Contact on WhatsApp</button>
+        </a>
+    </div>
+</div>
+
+<div class="section" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1571333250630-f0230c320b6d">
+            <h3>Cycle Chains</h3>
+            <p>Strong and long-lasting chains.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518655048521-f130df041f66">
+            <h3>Brake Systems</h3>
+            <p>High safety braking solutions.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1595433562696-6d9c5c6c9b0f">
+            <h3>Tyres & Tubes</h3>
+            <p>Durable tyres for all conditions.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231">
+            <h3>Pedals</h3>
+            <p>Heavy-duty pedals for smooth ride.</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        SG Enterprises is a trusted wholesale supplier of cycle spare parts.
+        We provide quality products at competitive prices for retailers and dealers.
+        Our focus is long-term business relationships and customer satisfaction.
+    </p>
+</div>
+
+<div class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Owner:</strong> Suraj Gupta</p>
+    <p><strong>Phone:</strong> +91 9695781319</p>
+    <p><strong>Email:</strong> sgenterprises@email.com</p>
+
+    <a href="https://wa.me/919695781319" target="_blank">
+        <button class="btn">Chat on WhatsApp</button>
+    </a>
+</div>
+
+<footer>
+    <p>© 2026 SG Enterprises | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
